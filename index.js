@@ -54,19 +54,28 @@ console.log(languages)
 //     return fruit
 // }
 
-// 4. 
-// const numbers = [1, 2, 3, 5, 8, 15]
+4. 
 
-// const largestNumber =(values) => {
-//     let highest =15;
-//     for (let i=0; i <values.lenght; i+=1) {
-//         if (values[i] > highest) {
-//             highest = values[i];
-//         }
+//     const arrayOfNumbers = [2, 5, 7, 15];
+//     function maxValue (arrayOfNumbers)  {
+//     let max = arrayOfNumbers[0];
+//     for (let i =1 ; i < arrayOfNumbers.length; i++) {
+//     if (arrayOfNumbers[i] > max) {
+//         max = arrayOfNumbers[i];
 //     }
-//     return highest;
+//     }
+
+//     console.log(max);
 // }
-// console.log(largestNumber(numbers));
+// maxValue(arrayOfNumbers)
+
 
  
-// 5. 
+ // 5. 
+const originalArray = [2, 3, 4, 5, 9]
+function valTimesIndex (originalArray){
+    const timeArray = originalArray.map((value, index) => value * index) ;
+    return timesArray;
+}
+console.log(valTimesIndex(originalArray ));
+
