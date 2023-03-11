@@ -54,28 +54,33 @@ console.log(languages)
 //     return fruit
 // }
 
-4. 
-
-//     const arrayOfNumbers = [2, 5, 7, 15];
-//     function maxValue (arrayOfNumbers)  {
-//     let max = arrayOfNumbers[0];
-//     for (let i =1 ; i < arrayOfNumbers.length; i++) {
-//     if (arrayOfNumbers[i] > max) {
-//         max = arrayOfNumbers[i];
+// 4. 
+// const newArray = [5, 6, 7, 4, 8];
+// arrayFunction (newArray) {
+//     let maximum = - Infinity
+//     for (let i = 0; i < newArray.length; i++) {
+//         if (newArray [i] > maximum) {
+//             max - newArray;
+//         }
+//         return maximum;
+       
 //     }
-//     }
-
-//     console.log(max);
+//     let max = arrayFunction (newArray);
+    
 // }
-// maxValue(arrayOfNumbers)
+// console.log(max)
+
 
 
  
- // 5. 
-const originalArray = [2, 3, 4, 5, 9]
-function valTimesIndex (originalArray){
-    const timeArray = originalArray.map((value, index) => value * index) ;
-    return timesArray;
-}
-console.log(valTimesIndex(originalArray ));
-
+// 5. 
+// const newArray =  [5, 6, 7, 4, 3, 9]
+// let emptyArray = [];
+// function valTimesIndex (newArray){
+//    for (let i = 0; i < newArray.length; i++){
+//     let newVal = i * newArray [i];
+//     emptyArray.push(newVal);
+//    }
+//     return emptyArray;
+// }
+// console.log(valTimesIndex(newArray ));
